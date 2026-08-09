@@ -1,0 +1,1 @@
+import{j as n,m as c}from"./index-BVARg_3O.js";const i="_card_2sgf8_1",l="_glass_2sgf8_17",s={card:i,glass:l},g=({children:a,className:t="",glass:r=!1,hoverable:e=!0,onClick:o})=>n.jsx(c.div,{whileHover:e?{y:-6}:{},transition:{duration:.3,ease:"easeOut"},onClick:o,className:`${s.card} ${r?s.glass:""} ${t}`,children:a});export{g as C};

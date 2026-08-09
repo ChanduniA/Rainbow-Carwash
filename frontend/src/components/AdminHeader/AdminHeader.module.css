@@ -1,0 +1,141 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 16px 24px;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 28px;
+}
+
+.leftMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.breadcrumbRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.775rem;
+  color: var(--color-text-muted);
+}
+
+.crumb {
+  font-weight: 600;
+}
+
+.crumbArrow {
+  opacity: 0.6;
+}
+
+.title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--color-dark);
+  margin: 0;
+}
+
+.centerSearch {
+  flex: 1;
+  max-width: 420px;
+}
+
+.rightActions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.iconBtn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  color: var(--color-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.iconBtn:hover {
+  background: var(--color-white);
+  border-color: var(--color-primary);
+}
+
+.bellBadge,
+.msgBadge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: var(--color-danger);
+  color: var(--color-white);
+  font-size: 0.675rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-white);
+}
+
+.msgBadge {
+  background: var(--color-primary);
+}
+
+.adminProfile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 12px 4px 4px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profileText {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-dark);
+}
+
+.role {
+  font-size: 0.7rem;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .headerContainer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .rightActions {
+    justify-content: space-between;
+  }
+  .centerSearch {
+    max-width: 100%;
+  }
+}

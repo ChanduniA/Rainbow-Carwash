@@ -1,0 +1,123 @@
+.container {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.headerTitleRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bellIcon {
+  color: var(--color-primary);
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--color-dark);
+  margin: 0;
+}
+
+.unreadBadge {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--color-white);
+  background: var(--color-danger);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+
+.markReadBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.markReadBtn:hover {
+  text-decoration: underline;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+}
+
+.unreadItem {
+  background: var(--color-primary-light);
+  border-color: rgba(37, 99, 235, 0.3);
+}
+
+.iconCircle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.itemTitleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemTitle {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--color-dark);
+}
+
+.itemTime {
+  font-size: 0.725rem;
+  color: var(--color-text-muted);
+}
+
+.itemMessage {
+  font-size: 0.825rem;
+  color: var(--color-text-muted);
+  line-height: 1.45;
+  margin: 0;
+}

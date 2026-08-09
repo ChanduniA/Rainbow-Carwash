@@ -1,0 +1,111 @@
+.container {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  box-shadow: var(--shadow-md);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.headerIcon {
+  color: var(--color-primary);
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-dark);
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin: 2px 0 0 0;
+}
+
+.groupsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.groupBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.groupTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.slotsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.slotBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 14px;
+  background: var(--color-bg);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.slotBtn:hover {
+  background: var(--color-white);
+  border-color: var(--color-primary);
+}
+
+.slotClockIcon {
+  color: var(--color-text-muted);
+}
+
+.slotText {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--color-dark);
+}
+
+.selectedSlot {
+  background: var(--color-primary-light) !important;
+  border-color: var(--color-primary) !important;
+  box-shadow: var(--shadow-glow);
+}
+
+.selectedSlot .slotText,
+.selectedSlot .slotClockIcon {
+  color: var(--color-primary);
+}
+
+.checkIcon {
+  color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .slotsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,131 @@
+.sidebar {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 24px 20px;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-height: 720px;
+}
+
+.brandRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.brandBadge {
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-md);
+  background: var(--color-dark);
+  color: var(--color-white);
+  font-size: 1.1rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.brandTitle {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--color-dark);
+  margin: 0;
+}
+
+.brandSub {
+  font-size: 0.775rem;
+  color: var(--color-text-muted);
+}
+
+.navMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--color-dark);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-align: left;
+}
+
+.navLink:hover {
+  background: var(--color-bg);
+  color: var(--color-primary);
+}
+
+.activeLink {
+  background: var(--color-primary-light) !important;
+  color: var(--color-primary) !important;
+  font-weight: 700;
+}
+
+.icon {
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+}
+
+.activeLink .icon {
+  color: var(--color-primary);
+}
+
+.label {
+  font-size: 0.9rem;
+  flex: 1;
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: var(--color-bg);
+  color: var(--color-text-muted);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+
+.activeBadge {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.logoutWrapper {
+  padding-top: 16px;
+  border-top: 1px solid var(--color-border);
+}
+
+.logoutBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 14px;
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-danger);
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.logoutBtn:hover {
+  background: rgba(239, 68, 68, 0.08);
+  border-color: var(--color-danger);
+}

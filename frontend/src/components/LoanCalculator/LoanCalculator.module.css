@@ -1,0 +1,97 @@
+.calculatorCard {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: var(--shadow-sm);
+}
+
+.calcHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.headerIcon {
+  color: var(--color-primary);
+  margin-top: 2px;
+}
+
+.calcTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-dark);
+}
+
+.calcSub {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+}
+
+.monthlyPaymentBox {
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+  color: var(--color-white);
+  padding: 20px;
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+
+.paymentLabel {
+  display: block;
+  font-size: 0.82rem;
+  color: #94A3B8;
+}
+
+.paymentAmount {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: var(--color-success);
+}
+
+.paymentAmount small {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-white);
+}
+
+.controlsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.field label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-dark);
+}
+
+.input, .select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 0.88rem;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  outline: none;
+}
+
+.input:focus, .select:focus {
+  border-color: var(--color-primary);
+}
+
+@media (max-width: 640px) {
+  .controlsGrid {
+    grid-template-columns: 1fr;
+  }
+}

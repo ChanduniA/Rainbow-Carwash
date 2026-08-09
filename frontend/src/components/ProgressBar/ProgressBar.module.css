@@ -1,0 +1,39 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.labelRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-dark);
+}
+
+.labelText {
+  color: var(--color-text-muted);
+}
+
+.percentageText {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.track {
+  width: 100%;
+  background: var(--color-border);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  position: relative;
+}
+
+.fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-primary) 0%, #3B82F6 100%);
+  border-radius: var(--radius-full);
+  box-shadow: 0 0 10px rgba(37, 99, 235, 0.4);
+}

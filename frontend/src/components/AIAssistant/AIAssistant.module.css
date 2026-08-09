@@ -1,0 +1,10 @@
+.aiPage {
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  padding-bottom: 80px;
+}
+
+.containerPadding {
+  padding-top: 24px;
+  position: relative;
+}

@@ -1,0 +1,473 @@
+.homeWrapper {
+  width: 100%;
+}
+
+.sectionPadding {
+  padding: 90px 0;
+}
+
+.grayBg {
+  background-color: #F1F5F9;
+}
+
+/* Hero Section */
+.heroSection {
+  position: relative;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0 80px;
+  overflow: hidden;
+  color: var(--color-white);
+}
+
+.heroBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.heroImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.darkOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.75) 0%, rgba(15, 23, 42, 0.88) 100%);
+}
+
+.heroContainer {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+}
+
+.heroContent {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  padding: 6px 18px;
+  border-radius: var(--radius-full);
+  backdrop-filter: blur(8px);
+  margin-bottom: 8px;
+}
+
+.heroTitle {
+  font-size: 3.75rem;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -1px;
+  color: var(--color-white);
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: #CBD5E1;
+  max-width: 680px;
+  line-height: 1.6;
+}
+
+.heroButtons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Search Bar Box */
+.searchBarBox {
+  width: 100%;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  color: var(--color-dark);
+}
+
+.searchForm {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr 1.2fr 1fr;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.searchFieldGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+
+.searchLabel {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-dark);
+}
+
+.inputInputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 14px;
+  color: var(--color-text-muted);
+}
+
+.heroInput {
+  width: 100%;
+  padding: 12px 14px 12px 42px;
+  font-size: 0.92rem;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  outline: none;
+  background-color: var(--color-white);
+}
+
+.heroInput:focus {
+  border-color: var(--color-primary);
+}
+
+.heroSelect {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 0.92rem;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  outline: none;
+  background-color: var(--color-white);
+  cursor: pointer;
+}
+
+.heroSelect:focus {
+  border-color: var(--color-primary);
+}
+
+.searchBtnCol {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Featured Vehicles Grid */
+.vehicleGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.centerBtnWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+/* Features Section */
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.featureCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 32px 24px;
+}
+
+.featureIconBox {
+  width: 58px;
+  height: 58px;
+  border-radius: var(--radius-md);
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-bounce);
+}
+
+.featureCard:hover .featureIconBox {
+  background: var(--color-primary);
+  color: var(--color-white);
+  transform: scale(1.1) rotate(-4deg);
+}
+
+.featureTitle {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-dark);
+}
+
+.featureDesc {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+/* How It Works Timeline */
+.stepsTimeline {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.stepCard {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: 32px 24px;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+}
+
+.stepHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stepNum {
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: var(--color-primary);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stepTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-dark);
+  margin-bottom: 10px;
+}
+
+.stepDesc {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+/* Testimonials */
+.testimonialsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.testimonialCard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px;
+}
+
+.ratingRow {
+  display: flex;
+  gap: 4px;
+}
+
+.reviewText {
+  font-size: 0.95rem;
+  color: var(--color-dark-light);
+  font-style: italic;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.authorRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-border-light);
+}
+
+.authorAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--color-primary);
+}
+
+.authorName {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-dark);
+}
+
+.authorRole {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+/* Stats Section */
+.statsSection {
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+  padding: 70px 0;
+  color: var(--color-white);
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  text-align: center;
+}
+
+.statBox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.statNum {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--color-accent);
+  letter-spacing: -1px;
+}
+
+.statLabel {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #94A3B8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* CTA Section */
+.ctaBanner {
+  position: relative;
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  border-radius: var(--radius-lg);
+  padding: 70px 40px;
+  color: var(--color-white);
+  overflow: hidden;
+  box-shadow: var(--shadow-glow);
+  text-align: center;
+}
+
+.ctaOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.ctaContent {
+  position: relative;
+  z-index: 2;
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.ctaHeading {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.ctaSub {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.ctaButtons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 1024px) {
+  .vehicleGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .featuresGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .stepsTimeline {
+    grid-template-columns: 1fr;
+  }
+  .testimonialsGrid {
+    grid-template-columns: 1fr;
+  }
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .searchForm {
+    grid-template-columns: 1fr 1fr;
+  }
+  .heroTitle {
+    font-size: 2.75rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .vehicleGrid {
+    grid-template-columns: 1fr;
+  }
+  .featuresGrid {
+    grid-template-columns: 1fr;
+  }
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+  .searchForm {
+    grid-template-columns: 1fr;
+  }
+  .heroTitle {
+    font-size: 2.2rem;
+  }
+  .heroButtons, .ctaButtons {
+    flex-direction: column;
+    width: 100%;
+  }
+}

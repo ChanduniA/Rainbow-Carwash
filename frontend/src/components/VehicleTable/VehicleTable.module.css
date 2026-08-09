@@ -1,0 +1,135 @@
+.container {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tableTitle {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--color-dark);
+  margin: 0;
+}
+
+.countBadge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  background: var(--color-primary-light);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+}
+
+.responsiveOverflow {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table th {
+  font-size: 0.775rem;
+  font-weight: 800;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.table td {
+  padding: 16px;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.9rem;
+  color: var(--color-dark);
+  vertical-align: middle;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.vehicleCell {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.thumb {
+  width: 56px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+
+.vehicleMeta {
+  display: flex;
+  flex-direction: column;
+}
+
+.vehicleName {
+  font-size: 0.925rem;
+  color: var(--color-dark);
+}
+
+.vinText {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.brandCell {
+  display: flex;
+  flex-direction: column;
+}
+
+.brandCell span {
+  font-size: 0.775rem;
+  color: var(--color-text-muted);
+}
+
+.yearBadge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-dark);
+  background: var(--color-bg);
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+}
+
+.priceText {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+.statusBadge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+}
+
+.available {
+  background: rgba(34, 197, 94, 0.12);
+  color: var(--color-success);
+}
+
+.sold {
+  background: rgba(245, 158, 11, 0.12);
+  color: var(--color-accent);
+}

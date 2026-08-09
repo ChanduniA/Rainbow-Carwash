@@ -1,0 +1,6 @@
+import{c as t}from"./index-BVARg_3O.js";/**
+ * @license lucide-react v0.475.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const o=[["path",{d:"M12 2v4",key:"3427ic"}],["path",{d:"m16.2 7.8 2.9-2.9",key:"r700ao"}],["path",{d:"M18 12h4",key:"wj9ykh"}],["path",{d:"m16.2 16.2 2.9 2.9",key:"1bxg5t"}],["path",{d:"M12 18v4",key:"jadmvz"}],["path",{d:"m4.9 19.1 2.9-2.9",key:"bwix9q"}],["path",{d:"M2 12h4",key:"j09sii"}],["path",{d:"m4.9 4.9 2.9 2.9",key:"giyufr"}]],y=t("Loader",o),r="_authWrapper_tu9sm_1",s="_container_tu9sm_11",e="_authCardWrapper_tu9sm_16",a="_authCard_tu9sm_16",_="_logoRow_tu9sm_32",n="_logoIcon_tu9sm_39",c="_logoText_tu9sm_50",u="_brandTitle_tu9sm_55",i="_brandSubtitle_tu9sm_62",l="_title_tu9sm_70",d="_subtitle_tu9sm_76",m="_form_tu9sm_81",p="_forgotLink_tu9sm_101",h="_footerRow_tu9sm_106",g="_signupLink_tu9sm_116",L={authWrapper:r,container:s,authCardWrapper:e,authCard:a,logoRow:_,logoIcon:n,logoText:c,brandTitle:u,brandSubtitle:i,title:l,subtitle:d,form:m,forgotLink:p,footerRow:h,signupLink:g},b="_alertError_1hblf_2",k="_alertSuccess_1hblf_23",w={alertError:b,alertSuccess:k};export{y as L,w as r,L as s};

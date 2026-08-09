@@ -1,0 +1,221 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 990;
+  background: var(--color-white);
+  border-bottom: 1px solid var(--color-border-light);
+  transition: all var(--transition-normal);
+}
+
+.scrolled {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.08);
+  border-bottom-color: var(--color-border);
+}
+
+.navInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+/* Logo */
+.logoLink {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logoIcon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, var(--color-primary) 0%, #1D4ED8 100%);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-glow);
+}
+
+.logoText {
+  display: flex;
+  flex-direction: column;
+}
+
+.brandTitle {
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: var(--color-dark);
+  line-height: 1;
+}
+
+.brandSubtitle {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--color-primary);
+}
+
+/* Desktop Nav */
+.desktopNav {
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  list-style: none;
+}
+
+.navLink {
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+  padding: 6px 0;
+  transition: color var(--transition-fast);
+}
+
+.navLink:hover,
+.activeLink {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.activeLink::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: var(--color-primary);
+  border-radius: var(--radius-full);
+}
+
+.badgeAI {
+  font-size: 0.68rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--color-accent) 0%, #D97706 100%);
+  color: var(--color-white);
+  padding: 2px 7px;
+  border-radius: var(--radius-full);
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+/* Auth Buttons */
+.authButtons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Hamburger */
+.hamburgerBtn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-dark);
+  padding: 8px;
+  border-radius: var(--radius-sm);
+}
+
+/* Mobile Drawer */
+.mobileDrawer {
+  display: none;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-border);
+  padding: 20px 0 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.mobileNavList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.mobileNavLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  color: var(--color-dark);
+}
+
+.activeMobileLink {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.mobileAuthGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+@media (max-width: 1024px) {
+  .desktopNav,
+  .authButtons {
+    display: none;
+  }
+  .hamburgerBtn {
+    display: flex;
+  }
+  .mobileDrawer {
+    display: block;
+  }
+}
+
+/* User Profile Badge */
+.userProfileBadge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 16px 4px 4px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+}
+
+.userProfileBadge:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+  transform: translateY(-1px);
+}
+
+.navAvatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navUserName {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--color-dark);
+}

@@ -1,0 +1,331 @@
+.detailPage {
+  padding-bottom: 90px;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.headerRow {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.brandRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.brandBadge {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  background-color: var(--color-primary-light);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.verifiedBadge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #15803D;
+  background-color: rgba(34, 197, 94, 0.15);
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--color-dark);
+  letter-spacing: -0.5px;
+}
+
+.location {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.priceActionWrapper {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.priceLabel {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.priceValue {
+  font-size: 2.4rem;
+  font-weight: 900;
+  color: var(--color-primary);
+}
+
+.shareSaveGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.iconBtn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+}
+
+.iconBtn:hover {
+  background-color: var(--color-bg);
+  border-color: var(--color-primary);
+}
+
+.activeSaved {
+  background-color: #FEF2F2;
+  border-color: #FECACA;
+}
+
+.copiedToast {
+  position: absolute;
+  top: -32px;
+  right: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.gridMain {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 32px;
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.sectionCard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sectionHeading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-dark);
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.descriptionText {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+.highlightsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  list-style: none;
+}
+
+.highlightItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.92rem;
+  color: var(--color-dark);
+}
+
+.checkIcon {
+  color: var(--color-success);
+  flex-shrink: 0;
+}
+
+.reviewsList {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.rightCol {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.actionCard {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.actionTitle {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-dark);
+}
+
+.actionSub {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.actionButtonsList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btnLink {
+  text-decoration: none;
+  width: 100%;
+}
+
+.guaranteeBox {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background-color: var(--color-primary-light);
+  padding: 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+}
+
+.shieldIcon {
+  color: var(--color-primary);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.guaranteeBox strong {
+  display: block;
+  font-size: 0.88rem;
+  color: var(--color-dark);
+}
+
+.guaranteeBox p {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  margin-top: 2px;
+}
+
+.relatedSection {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.relatedHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.relatedHeader h3 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--color-dark);
+}
+
+.viewAllLink {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.field label {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  outline: none;
+}
+
+.modalSuccess {
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (max-width: 1024px) {
+  .gridMain {
+    grid-template-columns: 1fr;
+  }
+  .headerRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .priceActionWrapper {
+    align-self: flex-start;
+  }
+  .relatedGrid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,74 @@
+.menuWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.triggerBtn {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 6px;
+  color: var(--color-dark);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+}
+
+.triggerBtn:hover {
+  background: var(--color-bg);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  margin-top: 4px;
+  width: 160px;
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  z-index: 100;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 0.825rem;
+  font-weight: 600;
+  color: var(--color-dark);
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  text-align: left;
+  transition: all var(--transition-fast);
+}
+
+.menuItem:hover {
+  background: var(--color-bg);
+}
+
+.approveItem:hover {
+  background: rgba(34, 197, 94, 0.1);
+  color: var(--color-success);
+}
+
+.dangerItem {
+  color: var(--color-danger);
+}
+
+.dangerItem:hover {
+  background: rgba(239, 68, 68, 0.1);
+}

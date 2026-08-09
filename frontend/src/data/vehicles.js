@@ -1,0 +1,631 @@
+export const vehiclesData = [
+  {
+    "id": "v1",
+    "name": "2019 Mercedes-Benz CLA 200 AMG Premium Plus",
+    "brand": "Mercedes-Benz",
+    "model": "CLA 200 AMG Premium Plus",
+    "price": 87500,
+    "year": 2019,
+    "mileage": "34,175 mi (55,000 km)",
+    "fuel": "Petrol",
+    "transmission": "7-Speed Automatic Dual-Clutch (7G-DCT)",
+    "bodyType": "Coupe Sedan",
+    "engine": "1.3L Turbo Inline-4 (1332 cc)",
+    "horsepower": "163 hp",
+    "location": "Colombo, Western Province",
+    "featured": true,
+    "image": "/vehicle-photos/cla200-1.jpg",
+    "images": [
+      "/vehicle-photos/cla200-1.jpg"
+    ],
+    "description": "This 2019 Mercedes-Benz CLA 200 AMG Premium Plus is a registered luxury coupe sedan maintained through company service. With 55,000 km, it offers a perfect combination of sporty AMG styling, premium comfort, and advanced technology. Equipped with memory electric seats, Burmester audio, panoramic sunroof, and advanced parking features.",
+    "highlights": [
+      "Panoramic Sunroof",
+      "Burmester Sound System",
+      "Memory Electric Seats",
+      "LED Headlamps",
+      "360° Parking Sensors"
+    ],
+    "seller": {
+      "name": "Rainbow Traders Colombo",
+      "rating": 4.8,
+      "phone": "+94 76 210 4478",
+      "email": "colombo@rainbowtraders.com",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "id": "r11",
+        "author": "Nadeesha Perera",
+        "rating": 5,
+        "comment": "Beautiful condition and the AMG styling really stands out. Smooth handover from the Colombo team.",
+        "date": "2 weeks ago"
+      }
+    ]
+  },
+  {
+    "id": "v2",
+    "name": "2026 Toyota Urban Cruiser Hyryder Hybrid",
+    "brand": "Toyota",
+    "model": "Urban Cruiser Hyryder",
+    "price": 39500,
+    "year": 2026,
+    "mileage": "8,450 mi (13,600 km)",
+    "fuel": "Hybrid",
+    "transmission": "e-CVT Automatic",
+    "bodyType": "SUV",
+    "engine": "1.5L Inline-4 Hybrid (1490 cc)",
+    "horsepower": "114 hp",
+    "location": "Colombo, Western Province",
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1000&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1650959818516-03d68079f9a0?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "description": "This registered 2026 Toyota Urban Cruiser Hyryder Hybrid is a fuel-efficient SUV with low mileage and excellent reliability. It delivers smooth hybrid performance, comfortable driving, and Toyota's trusted build quality. Ideal for daily commuting and family use.",
+    "highlights": [
+      "Hybrid Technology",
+      "Fuel Efficient",
+      "Reverse Camera",
+      "Push Button Start",
+      "LED Lighting"
+    ],
+    "seller": {
+      "name": "Rainbow Traders Colombo",
+      "rating": 4.7,
+      "phone": "+94 77 340 9215",
+      "email": "colombo@rainbowtraders.com",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "id": "r12",
+        "author": "Ruwan Fernando",
+        "rating": 5,
+        "comment": "Great fuel economy and very smooth hybrid drive. Perfect for daily commuting.",
+        "date": "1 month ago"
+      }
+    ]
+  },
+  {
+    "id": "v3",
+    "name": "2025 Toyota Rush",
+    "brand": "Toyota",
+    "model": "Rush",
+    "price": 36500,
+    "year": 2025,
+    "mileage": "6,524 mi (10,500 km)",
+    "fuel": "Petrol",
+    "transmission": "4-Speed Automatic",
+    "bodyType": "SUV",
+    "engine": "1.5L Inline-4 (1496 cc)",
+    "horsepower": "103 hp",
+    "location": "Colombo, Western Province",
+    "featured": false,
+    "image": "/vehicle-photos/rush-1.jpg",
+    "images": [
+      "/vehicle-photos/rush-1.jpg",
+      "/vehicle-photos/rush-2.jpg"
+    ],
+    "description": "This 2025 Toyota Rush is a registered family SUV maintained by Toyota Lanka. With only 10,500 km, it provides excellent reliability, spacious seating, and practical features for everyday driving. A great choice for families looking for a dependable automatic SUV.",
+    "highlights": [
+      "Toyota Lanka Maintained",
+      "7-Seater",
+      "Reverse Camera",
+      "LED Headlamps",
+      "Automatic Transmission"
+    ],
+    "seller": {
+      "name": "Rainbow Traders Colombo",
+      "rating": 4.8,
+      "phone": "+94 71 522 8064",
+      "email": "colombo@rainbowtraders.com",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "id": "r13",
+        "author": "Ishara Gunawardena",
+        "rating": 5,
+        "comment": "Roomy and reliable, great for family trips. Very low mileage for the price.",
+        "date": "3 weeks ago"
+      }
+    ]
+  },
+  {
+    "id": "v4",
+    "name": "2026 BMW X5 M Sport Pro",
+    "brand": "BMW",
+    "model": "X5 M Sport Pro",
+    "price": 128500,
+    "year": 2026,
+    "mileage": "9,850 mi (15,850 km)",
+    "fuel": "Petrol",
+    "transmission": "8-Speed Sport Automatic",
+    "bodyType": "SUV",
+    "engine": "3.0L TwinPower Turbo Inline-6 (2998 cc)",
+    "horsepower": "489 hp",
+    "location": "Colombo, Western Province",
+    "featured": true,
+    "image": "/vehicle-photos/x5m-1.jpg",
+    "images": [
+      "/vehicle-photos/x5m-1.jpg",
+      "/vehicle-photos/x5m-2.jpg"
+    ],
+    "description": "This registered 2026 BMW X5 M Sport Pro delivers exceptional luxury, performance, and technology. Finished with premium materials and M Sport enhancements, it offers an outstanding driving experience with advanced comfort features. Carefully maintained and ready for its next owner.",
+    "highlights": [
+      "M Sport Package",
+      "Bowers & Wilkins Audio",
+      "Panoramic Glass Roof",
+      "Massage Seats",
+      "Parking Assistant Professional"
+    ],
+    "seller": {
+      "name": "Rainbow Traders Colombo",
+      "rating": 4.9,
+      "phone": "+94 78 665 3392",
+      "email": "colombo@rainbowtraders.com",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "id": "r14",
+        "author": "Dilshan Wickramasinghe",
+        "rating": 5,
+        "comment": "Incredible power and presence. The M Sport package makes it feel truly special.",
+        "date": "2 weeks ago"
+      }
+    ]
+  },
+  {
+    "id": "v5",
+    "name": "2026 Mercedes-Benz G450d AMG Line G-Class",
+    "brand": "Mercedes-Benz",
+    "model": "G Wagon G450d AMG Line",
+    "price": 150000,
+    "year": 2026,
+    "mileage": "4,970 mi (8,000 km)",
+    "fuel": "Diesel Mild Hybrid",
+    "transmission": "9-Speed G-TRONIC Automatic",
+    "bodyType": "SUV",
+    "engine": "3.0L Turbo Inline-6 Diesel Mild Hybrid",
+    "horsepower": "362 hp",
+    "location": "Colombo, Western Province",
+    "featured": true,
+    "image": "/vehicle-photos/gwagon-1.jpg",
+    "images": [
+      "/vehicle-photos/gwagon-1.jpg",
+      "/vehicle-photos/gwagon-2.jpg"
+    ],
+    "description": "This registered 2026 Mercedes-Benz G450d AMG Line represents the ultimate combination of luxury, prestige, and off-road capability. It features AMG styling, premium Nappa leather, Burmester audio, advanced safety systems, and exceptional comfort. A highly desirable luxury SUV for buyers seeking exclusivity and performance.",
+    "highlights": [
+      "AMG Line Package",
+      "Burmester Sound System",
+      "Panoramic Sunroof",
+      "Nappa Leather Interior",
+      "360° Camera System"
+    ],
+    "seller": {
+      "name": "Rainbow Traders Colombo",
+      "rating": 5,
+      "phone": "+94 75 198 7726",
+      "email": "colombo@rainbowtraders.com",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "id": "r15",
+        "author": "Kavindu Silva",
+        "rating": 5,
+        "comment": "An absolute showstopper. Exceptional build quality and presence on the road.",
+        "date": "1 week ago"
+      }
+    ]
+  },
+  {
+    "id": "v6",
+    "name": "Porsche 911 GT3 RS",
+    "brand": "Porsche",
+    "model": "911 GT3 RS",
+    "price": 248500,
+    "year": 2024,
+    "mileage": "1,200 mi",
+    "fuel": "Petrol",
+    "transmission": "PDK Automatic",
+    "bodyType": "Coupe",
+    "engine": "4.0L Flat-6",
+    "horsepower": "518 hp",
+    "location": "Miami, FL",
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=1000&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "description": "The ultimate track weapon engineered for aerodynamic precision. Features lightweight carbon fiber components, active rear-wing DRS system, and motorsport-derived suspension.",
+    "highlights": [
+      "Carbon Aeropackage",
+      "PDK Dual Clutch",
+      "Sport Chrono Package",
+      "Bose Surround Sound",
+      "Bucket Seats"
+    ],
+    "seller": {
+      "name": "Rainbow Miami Flagship Dealer",
+      "rating": 4.9,
+      "phone": "+1 (800) 555-9111",
+      "email": "miami@rainbowtraders.com",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "Marcus Vance",
+        "rating": 5,
+        "comment": "Phenomenal precision track car. Handover process was seamless with full inspection report.",
+        "date": "2 weeks ago"
+      },
+      {
+        "id": "r2",
+        "author": "Elena Rostova",
+        "rating": 5,
+        "comment": "PDK transmission shifts like lightning. Truly worth every penny.",
+        "date": "1 month ago"
+      }
+    ]
+  },
+  {
+    "id": "v7",
+    "name": "BMW M4 Competition xDrive",
+    "brand": "BMW",
+    "model": "M4 Competition",
+    "price": 89900,
+    "year": 2023,
+    "mileage": "4,500 mi",
+    "fuel": "Petrol",
+    "transmission": "8-Speed M Steptronic",
+    "bodyType": "Coupe",
+    "engine": "3.0L Twin-Turbo I6",
+    "horsepower": "503 hp",
+    "location": "Los Angeles, CA",
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1000&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "description": "Aggressive styling meets relentless power. The M4 Competition xDrive delivers exhilarating acceleration with supreme all-weather traction.",
+    "highlights": [
+      "M Carbon Bucket Seats",
+      "Head-Up Display",
+      "Harman Kardon Audio",
+      "Laserlight Headlights",
+      "Carbon Exterior Package"
+    ],
+    "seller": {
+      "name": "Rainbow Los Angeles Showroom",
+      "rating": 4.8,
+      "phone": "+1 (800) 555-4000",
+      "email": "la@rainbowtraders.com",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "id": "r3",
+        "author": "David Kim",
+        "rating": 5,
+        "comment": "Incredible acceleration and aggressive stance. Rainbow team delivered right to my driveway.",
+        "date": "3 weeks ago"
+      }
+    ]
+  },
+  {
+    "id": "v8",
+    "name": "Audi RS6 Avant Performance",
+    "brand": "Audi",
+    "model": "RS6 Avant",
+    "price": 132000,
+    "year": 2024,
+    "mileage": "2,100 mi",
+    "fuel": "Petrol",
+    "transmission": "Tiptronic Automatic",
+    "bodyType": "Wagon",
+    "engine": "4.0L Twin-Turbo V8",
+    "horsepower": "621 hp",
+    "location": "New York, NY",
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1000&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "description": "The ideal blend of supercar speed and practical wagon versatility. Unleash 621 hp Quattro power with unmatched road presence.",
+    "highlights": [
+      "Quattro AWD",
+      "Bang & Olufsen 3D Sound",
+      "RS Dynamic Package Plus",
+      "Panoramic Sunroof",
+      "22-inch Matte Neodymium Wheels"
+    ],
+    "seller": {
+      "name": "Rainbow Manhattan Motors",
+      "rating": 4.9,
+      "phone": "+1 (800) 555-6600",
+      "email": "ny@rainbowtraders.com",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "id": "r4",
+        "author": "Sarah Jenkins",
+        "rating": 5,
+        "comment": "Best daily super-wagon in existence. Smooth trade-in process!",
+        "date": "1 month ago"
+      }
+    ]
+  },
+  {
+    "id": "v9",
+    "name": "Mercedes-AMG GT 63 S",
+    "brand": "Mercedes-Benz",
+    "model": "AMG GT 63 S",
+    "price": 165000,
+    "year": 2023,
+    "mileage": "8,900 mi",
+    "fuel": "Petrol",
+    "transmission": "AMG SPEEDSHIFT 9-Speed",
+    "bodyType": "Coupe",
+    "engine": "4.0L V8 Biturbo",
+    "horsepower": "630 hp",
+    "location": "Dallas, TX",
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1000&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "description": "Four-door luxury sports coupe engineered by AMG. Superior grand touring comfort combined with race-track dynamics.",
+    "highlights": [
+      "AMG Performance 4MATIC+",
+      "Rear-Axle Steering",
+      "Burmester High-End 3D Audio",
+      "Massage Seats",
+      "AMG Dynamic Plus"
+    ],
+    "seller": {
+      "name": "Rainbow Dallas Hub",
+      "rating": 4.7,
+      "phone": "+1 (800) 555-6300",
+      "email": "dallas@rainbowtraders.com",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "id": "r5",
+        "author": "Robert Chen",
+        "rating": 4.8,
+        "comment": "Exquisite build quality and exhaust sound.",
+        "date": "2 months ago"
+      }
+    ]
+  },
+  {
+    "id": "v10",
+    "name": "Tesla Model S Plaid",
+    "brand": "Tesla",
+    "model": "Model S Plaid",
+    "price": 94990,
+    "year": 2024,
+    "mileage": "500 mi",
+    "fuel": "Electric",
+    "transmission": "Single-Speed Fixed",
+    "bodyType": "Sedan",
+    "engine": "Tri-Motor AWD",
+    "horsepower": "1,020 hp",
+    "location": "San Francisco, CA",
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=1000&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "description": "The fastest accelerating production car in existence. 0-60 mph in 1.99 seconds with futuristic interior tech and 390 miles range.",
+    "highlights": [
+      "Full Self-Driving Capable",
+      "Yoke Steering",
+      "22-Speaker Audio",
+      "Plaid Track Mode",
+      "Glass Roof"
+    ],
+    "seller": {
+      "name": "Rainbow EV Center SF",
+      "rating": 4.9,
+      "phone": "+1 (800) 555-9000",
+      "email": "sf@rainbowtraders.com",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "id": "r6",
+        "author": "Alexander Vance",
+        "rating": 5,
+        "comment": "Instantaneous EV torque. The AI appraisal was spot on for my trade-in.",
+        "date": "1 week ago"
+      }
+    ]
+  },
+  {
+    "id": "v11",
+    "name": "Lamborghini Huracán Tecnica",
+    "brand": "Lamborghini",
+    "model": "Huracán Tecnica",
+    "price": 275000,
+    "year": 2023,
+    "mileage": "3,400 mi",
+    "fuel": "Petrol",
+    "transmission": "7-Speed Dual Clutch",
+    "bodyType": "Coupe",
+    "engine": "5.2L Naturally Aspirated V10",
+    "horsepower": "631 hp",
+    "location": "Las Vegas, NV",
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=1000&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "description": "A tribute to mechanical perfection. Pure rear-wheel drive thrills with a screaming naturally aspirated V10 exhaust roar.",
+    "highlights": [
+      "Rear Wheel Steering",
+      "Carbon Ceramic Brakes",
+      "LDVI Dynamics Control",
+      "Alcantara Interior",
+      "Titanium Rear Roll Bar"
+    ],
+    "seller": {
+      "name": "Rainbow Vegas Supercars",
+      "rating": 5,
+      "phone": "+1 (800) 555-7700",
+      "email": "vegas@rainbowtraders.com",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "id": "r7",
+        "author": "Jason Hayes",
+        "rating": 5,
+        "comment": "Unreal V10 soundtrack and handling.",
+        "date": "3 weeks ago"
+      }
+    ]
+  },
+  {
+    "id": "v12",
+    "name": "Ferrari F8 Tributo Spider",
+    "brand": "Ferrari",
+    "model": "F8 Tributo",
+    "price": 312000,
+    "year": 2023,
+    "mileage": "1,800 mi",
+    "fuel": "Petrol",
+    "transmission": "7-Speed Dual Clutch",
+    "bodyType": "Convertible",
+    "engine": "3.9L Twin-Turbo V8",
+    "horsepower": "710 hp",
+    "location": "Miami, FL",
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=1000&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "description": "An homage to the most powerful V8 in Ferrari history. Open-air supercar emotion with 710 horsepower under your command.",
+    "highlights": [
+      "Retractable Hardtop",
+      "Carbon Steering Wheel + LEDs",
+      "JBL Premium Audio",
+      "20-inch Forged Rims",
+      "Titanium Exhaust"
+    ],
+    "seller": {
+      "name": "Rainbow Miami Flagship Dealer",
+      "rating": 4.9,
+      "phone": "+1 (800) 555-9111",
+      "email": "miami@rainbowtraders.com",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "id": "r8",
+        "author": "Dominic T.",
+        "rating": 5,
+        "comment": "Breathtaking Italian craftsmanship.",
+        "date": "1 month ago"
+      }
+    ]
+  },
+  {
+    "id": "v13",
+    "name": "Aston Martin Vantage V8",
+    "brand": "Aston Martin",
+    "model": "Vantage",
+    "price": 148000,
+    "year": 2024,
+    "mileage": "900 mi",
+    "fuel": "Petrol",
+    "transmission": "8-Speed Automatic",
+    "bodyType": "Coupe",
+    "engine": "4.0L Twin-Turbo V8",
+    "horsepower": "503 hp",
+    "location": "Chicago, IL",
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1000&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "description": "Raw performance meets British elegance. Sculpted athletic body lines with twin-turbo V8 firepower.",
+    "highlights": [
+      "Aston Martin Audio System",
+      "360 Camera System",
+      "Sports Plus Seats",
+      "Carbon Fiber Exterior Badges"
+    ],
+    "seller": {
+      "name": "Rainbow Chicago Motors",
+      "rating": 4.8,
+      "phone": "+1 (800) 555-3300",
+      "email": "chicago@rainbowtraders.com",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "id": "r9",
+        "author": "Oliver Grant",
+        "rating": 5,
+        "comment": "Pure class on wheels.",
+        "date": "2 weeks ago"
+      }
+    ]
+  },
+  {
+    "id": "v14",
+    "name": "Range Rover Sport SV Edition",
+    "brand": "Range Rover",
+    "model": "Sport SV",
+    "price": 182000,
+    "year": 2024,
+    "mileage": "1,100 mi",
+    "fuel": "Petrol Hybrid",
+    "transmission": "8-Speed Automatic",
+    "bodyType": "SUV",
+    "engine": "4.4L Twin-Turbo V8 MHEV",
+    "horsepower": "626 hp",
+    "location": "Denver, CO",
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1000&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "description": "The peak of high-performance luxury SUVs. Equipped with 6D Dynamics interlinked hydraulic suspension and carbon ceramic brakes.",
+    "highlights": [
+      "6D Dynamics Air Suspension",
+      "23-inch Carbon Fiber Wheels",
+      "Meridian Signature Sound",
+      "SV Performance Seats"
+    ],
+    "seller": {
+      "name": "Rainbow Mountain Luxury Denver",
+      "rating": 4.9,
+      "phone": "+1 (800) 555-5500",
+      "email": "denver@rainbowtraders.com",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "id": "r10",
+        "author": "Claire Miller",
+        "rating": 5,
+        "comment": "Ultimate luxury and winter capability.",
+        "date": "3 weeks ago"
+      }
+    ]
+  }
+];
